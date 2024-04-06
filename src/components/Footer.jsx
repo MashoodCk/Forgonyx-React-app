@@ -18,7 +18,7 @@ const MovingImagesRow = () => {
     adnoc1, adnoc2, vessel, bayotech1, iocl2, liqiude1, air2, air3, stanchion1,
     adnoc1, adnoc2, vessel, bayotech1, iocl2, liqiude1, air2, air3, stanchion1,
     adnoc1, adnoc2, vessel, bayotech1, iocl2, liqiude1, air2, air3, stanchion1,
-    
+
   ];
 
   return (
@@ -31,8 +31,7 @@ const MovingImagesRow = () => {
       </div>
 
       <div className="end">
-      <p>Copyright © 2024. All Rights Reserved by <strong style={{ color: '#05974f' }}>FORGONYX</strong></p>
-
+        <p>Copyright © 2024. All Rights Reserved by <strong style={{ color: '#05974f' }}>FORGONYX</strong></p>
       </div>
     </div>
 

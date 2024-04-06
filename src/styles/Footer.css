@@ -3,7 +3,8 @@
 .footer{
     background-color: aliceblue;
     text-align: center;
-    height: 65vh;
+    /* height: 65vh; */
+    padding-bottom: 2vw;
 }
 
 .animation {
@@ -53,6 +54,15 @@
     .animation img{
         width: 25vw;
         margin-right: 3vw;
+    }
+
+    .footer{
+        padding-bottom: 6vw;
+    }
+
+    .footer .end{
+        width: 80%;
+        line-height: 1.5;
     }
 }
 
