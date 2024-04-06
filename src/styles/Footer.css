@@ -1,0 +1,58 @@
+/* MovingImagesRow.css */
+
+.footer{
+    background-color: aliceblue;
+    text-align: center;
+    height: 65vh;
+}
+
+.animation {
+    padding: 2%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 6vw;
+}
+
+.animation img {
+    width: 12vw;
+    height: auto;
+    margin-right: 2vw;
+    border-radius: 5%;
+    animation: moveImages 150s linear infinite;
+    animation-timing-function:linear;
+}
+
+.footer .end{
+    width: 60%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 2vw;
+    border-radius: 2%;
+    background-color: white;
+}
+
+
+@keyframes moveImages {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-4000%);
+    }
+}
+
+
+@media screen and (max-width: 920px){
+    .animation img{
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .animation img{
+        width: 25vw;
+        margin-right: 3vw;
+    }
+}
+

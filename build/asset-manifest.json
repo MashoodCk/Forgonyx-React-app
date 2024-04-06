@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e256fe6e.css",
+    "main.js": "/static/js/main.81eed5ee.js",
+    "static/media/Adnoc.PNG": "/static/media/Adnoc.3b4865e6614a8c7c9f3b.PNG",
+    "static/media/bayotech.png": "/static/media/bayotech.c91f3f131ecd5a39ec86.png",
+    "static/media/air 3.png": "/static/media/air 3.accfdc586061821975bc.png",
+    "static/media/liquide1.png": "/static/media/liquide1.0761360c1c376794a0e8.png",
+    "static/media/air 2.png": "/static/media/air 2.13730ccff4568e36accd.png",
+    "static/media/stanchion1.PNG": "/static/media/stanchion1.8e4e9ffaa964f57523d6.PNG",
+    "static/media/vessel.png": "/static/media/vessel.8aec876b609adafd411a.png",
+    "static/media/iocl2.PNG": "/static/media/iocl2.950eac558c6e9d736341.PNG",
+    "static/media/Adnoc2.PNG": "/static/media/Adnoc2.4229b433fbfd57c1fd2d.PNG",
+    "static/media/teamWork.png": "/static/media/teamWork.12f87898cedef9971e13.png",
+    "static/media/client.png": "/static/media/client.0f5beacdefb0183831d9.png",
+    "static/media/4351531.png": "/static/media/4351531.e505e97c7fec0d0cc521.png",
+    "static/media/forgo.jpeg": "/static/media/forgo.7a746eb67d0cfd1e43dd.jpeg",
+    "static/media/prototype.png": "/static/media/prototype.926247e6169dee8bf562.png",
+    "static/media/3d-design.png": "/static/media/3d-design.7aacb6cc3a565f6427b0.png",
+    "index.html": "/index.html",
+    "main.e256fe6e.css.map": "/static/css/main.e256fe6e.css.map",
+    "main.81eed5ee.js.map": "/static/js/main.81eed5ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e256fe6e.css",
+    "static/js/main.81eed5ee.js"
+  ]
+}

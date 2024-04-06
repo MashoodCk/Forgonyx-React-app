@@ -1,0 +1,188 @@
+.projects{
+    margin: 6vw 6%;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.8;
+    opacity: .8;
+}
+
+.project{
+    /* width: 100%; */
+    padding-top: 4vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10vw;
+    margin-bottom: 6vw;
+}
+
+.projects h3{
+    font-size: 24px;
+    /* line-height: 1; */
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+.projects .para{
+    width: 72%;
+    margin: 20px auto;
+    line-height: 1.8;
+    /* font-style: italic; */
+}
+
+
+.project p{
+    font-size: 17px;
+    text-align: justify;
+    /* margin: 5px 0; */
+    width: 90%;
+    line-height: 1.8;
+}
+
+.project img{
+    width: 35vw;
+    height: 25vw;
+    border-radius: 2vw;
+    /* box-shadow: 1px 1px 8px rgb(180, 179, 179); */
+    box-shadow: 1px 1px 8px rgb(163, 205, 185);
+}
+
+
+
+/* liquide */
+
+.liquide:hover .project_text{
+    animation: moveL .5s ease-in-out;
+}
+
+.liquide:hover img{
+    animation: moveR .5s ease-in-out;
+}
+
+/* stanchion */
+
+.stanchion:hover img{
+    animation: moveL .5s ease-in;
+}
+
+.stanchion:hover .project_text{
+    animation: moveR .5s ease-in;
+}
+
+/* iocl */
+
+.iocl:hover .project_text{
+    animation: moveL .5s ease-in;
+}
+
+.iocl:hover img{
+    animation: moveR .5s ease-in;
+}
+
+/* bayotech */
+
+.bayotech:hover img{
+    animation: moveL .5s ease-in;
+}
+
+.bayotech:hover .project_text{
+    animation: moveR .5s ease-in;
+}
+
+/* adnoc */
+
+.adnoc:hover .project_text{
+    animation: moveL .5s ease-in;
+}
+
+.adnoc:hover img{
+    animation: moveR .5s ease-in;
+}
+
+@keyframes moveL {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes moveR {
+    0% {
+      transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(-10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+  }
+
+@media screen and (max-width: 920px){
+    
+    .project{
+        flex-direction: column;
+        gap: 8vw;
+        margin-bottom: 12vw;
+    }
+
+    .stanchion , .bayotech{
+        flex-direction: column-reverse;
+    }
+
+    .project p{
+        margin: 0 auto;
+    }
+
+    .project_text{
+        text-align: center;
+    }
+
+    .project img{
+        width: 60vw;
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .projects{
+        margin: 15vw 2vw;
+    }
+    .project{
+        gap: 15vw;
+        margin: 5vw auto 15vw; 
+    }
+
+    .projects p{
+        width: 88%;
+        text-align: justify;
+    }
+    .project p{
+        width: 100%;
+    }
+
+  
+    .project_text p{
+        width: 50%;
+        /* margin: 0 auto; */
+    }
+
+    .project img{
+        width: 80vw;
+        height: 60vw;
+    }
+}
