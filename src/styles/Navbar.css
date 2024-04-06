@@ -73,7 +73,9 @@ nav {
     .showMenu {
         display: flex;
         flex-direction: column;
-        background-color: black;
+        background-color:#0d9b54;
+        /* background-color: white; */
+        color: white;
         width: 70%;
         /* height: 100%; */
         text-align: center;
