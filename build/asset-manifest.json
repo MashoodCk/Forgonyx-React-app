@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5fcb5a1.css",
+    "main.css": "/static/css/main.edbced5f.css",
     "main.js": "/static/js/main.81eed5ee.js",
     "static/media/Adnoc.PNG": "/static/media/Adnoc.3b4865e6614a8c7c9f3b.PNG",
     "static/media/bayotech.png": "/static/media/bayotech.c91f3f131ecd5a39ec86.png",
@@ -18,11 +18,11 @@
     "static/media/prototype.png": "/static/media/prototype.926247e6169dee8bf562.png",
     "static/media/3d-design.png": "/static/media/3d-design.7aacb6cc3a565f6427b0.png",
     "index.html": "/index.html",
-    "main.e5fcb5a1.css.map": "/static/css/main.e5fcb5a1.css.map",
+    "main.edbced5f.css.map": "/static/css/main.edbced5f.css.map",
     "main.81eed5ee.js.map": "/static/js/main.81eed5ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5fcb5a1.css",
+    "static/css/main.edbced5f.css",
     "static/js/main.81eed5ee.js"
   ]
 }

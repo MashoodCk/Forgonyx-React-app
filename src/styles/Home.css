@@ -77,24 +77,24 @@
 
 @media screen and (max-width: 920px) {
     .main-area {
-        padding-top: 20vw;
+        padding-top: 25vw;
         text-align: center;
         flex-direction: column;
-        gap: 10vw;
+        gap: 4vw;
     }
 
     .home h1 {
-        font-size: 9vw;
+        font-size: 8vw;
         margin-bottom: 3vw;
     }
 
     .home h2 {
-        font-size: 7vw;
+        font-size: 6vw;
         /* text-align: justify; */
     }
 
     .mainPic img {
-        width: 80vw;
+        width: 60vw;
     }
 
     .sub-area {
@@ -104,8 +104,14 @@
 
 @media screen and (max-width: 550px) {
     .main-area {
-        padding-top: 40vw;
+        padding-top: 50vw;
     }
+
+    .main-area h1 {
+        font-size: 15vw;
+    }
+
+
 
     .mainPic img {
         width: 85vw;

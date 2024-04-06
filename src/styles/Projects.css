@@ -167,6 +167,10 @@
         margin: 5vw auto 15vw; 
     }
 
+    .projects .para{
+        width: 90%;
+    }
+
     .projects p{
         width: 88%;
         text-align: justify;
